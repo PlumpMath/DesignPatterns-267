@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creational\AbstractFactory\AbstractFactoryTests.cs" />
+    <Compile Include="Creational\Builder\BuilderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
