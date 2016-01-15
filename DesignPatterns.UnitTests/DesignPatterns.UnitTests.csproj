@@ -47,6 +47,7 @@
     <Compile Include="Creational\AbstractFactory\AbstractFactoryTests.cs" />
     <Compile Include="Creational\Builder\BuilderTests.cs" />
     <Compile Include="Creational\FactoryMethod\FactoryMethodTests.cs" />
+    <Compile Include="Creational\ObjectPool\ObjectPoolTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
