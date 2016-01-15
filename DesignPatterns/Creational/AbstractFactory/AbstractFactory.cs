@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory
 {
-    public abstract class Factory
+    public abstract class AbstractFactory
     {
         protected Expression Prototype;
 
@@ -14,7 +14,7 @@
         public abstract Expression MakeGrade();
     }
 
-    public class PcFactory : Factory
+    public class PcFactory : AbstractFactory
     {
         public PcFactory()
         {
@@ -32,7 +32,7 @@
         }
     }
 
-    public class NotPcFactory : Factory
+    public class NotPcFactory : AbstractFactory
     {
         public NotPcFactory()
         {

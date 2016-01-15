@@ -41,10 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creational\AbstractFactory\Expression.cs" />
-    <Compile Include="Creational\AbstractFactory\Factory.cs" />
+    <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Pizza.cs" />
     <Compile Include="Creational\Builder\PizzaBuilder.cs" />
     <Compile Include="Creational\Builder\Waiter.cs" />
+    <Compile Include="Creational\FactoryMethod\FactoryMethod.cs" />
+    <Compile Include="Creational\FactoryMethod\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
