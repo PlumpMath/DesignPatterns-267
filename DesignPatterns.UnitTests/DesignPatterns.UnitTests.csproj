@@ -49,6 +49,7 @@
     <Compile Include="Creational\FactoryMethod\FactoryMethodTests.cs" />
     <Compile Include="Creational\ObjectPool\ObjectPoolTests.cs" />
     <Compile Include="Creational\Prototype\PrototypeTests.cs" />
+    <Compile Include="Creational\Singleton\SingletonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
