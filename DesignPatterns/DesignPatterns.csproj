@@ -49,6 +49,8 @@
     <Compile Include="Creational\FactoryMethod\Book.cs" />
     <Compile Include="Creational\ObjectPool\Connection.cs" />
     <Compile Include="Creational\ObjectPool\ObjectPool.cs" />
+    <Compile Include="Creational\Prototype\ExpensiveObjectToInitialize.cs" />
+    <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
