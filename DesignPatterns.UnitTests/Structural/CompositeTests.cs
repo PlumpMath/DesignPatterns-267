@@ -27,15 +27,15 @@ namespace DesignPatterns.UnitTests.Structural
                     users.AddChild(johnSmith);
                 c.AddChild(users);
             var windows = new Directory(@"Windows");
-                    windows.AddChild(new Directory("System"));
-                    var system32 = new Directory("System32");
-                        system32.AddChild(new File("accessor.dll", 708));
-                        system32.AddChild(new File("accessibilitycpl.dll", 3725));
-                        system32.AddChild(new File("ActionCenter.dll", 874));
-                    windows.AddChild(system32);
-                    windows.AddChild(new File("explorer.exe", 2443));
-                    windows.AddChild(new File("regedit.exe", 151));
-                c.AddChild(windows);
+                windows.AddChild(new Directory("System"));
+                var system32 = new Directory("System32");
+                    system32.AddChild(new File("accessor.dll", 708));
+                    system32.AddChild(new File("accessibilitycpl.dll", 3725));
+                    system32.AddChild(new File("ActionCenter.dll", 874));
+                windows.AddChild(system32);
+                windows.AddChild(new File("explorer.exe", 2443));
+                windows.AddChild(new File("regedit.exe", 151));
+            c.AddChild(windows);
 
             CollectionAssert.AreEqual(new List<string>
             {
