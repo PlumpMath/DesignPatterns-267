@@ -48,8 +48,10 @@
     <Compile Include="Creational\FactoryMethod\FactoryMethod.cs" />
     <Compile Include="Creational\FactoryMethod\Book.cs" />
     <Compile Include="Creational\ObjectPool\Connection.cs" />
+    <Compile Include="Creational\ObjectPool\ConnectionPool.cs" />
     <Compile Include="Creational\ObjectPool\ObjectPool.cs" />
     <Compile Include="Creational\Prototype\ExpensiveObjectToInitialize.cs" />
+    <Compile Include="Creational\Prototype\IPrototype.cs" />
     <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

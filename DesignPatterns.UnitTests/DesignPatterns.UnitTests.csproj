@@ -44,14 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creational\AbstractFactory\AbstractFactoryTests.cs" />
-    <Compile Include="Creational\Builder\BuilderTests.cs" />
-    <Compile Include="Creational\FactoryMethod\FactoryMethodTests.cs" />
-    <Compile Include="Creational\ObjectPool\ObjectPoolTests.cs" />
-    <Compile Include="Creational\Prototype\PrototypeTests.cs" />
-    <Compile Include="Creational\Singleton\SingletonTests.cs" />
+    <Compile Include="Creational\AbstractFactoryTests.cs" />
+    <Compile Include="Creational\BuilderTests.cs" />
+    <Compile Include="Creational\FactoryMethodTests.cs" />
+    <Compile Include="Creational\ObjectPoolTests.cs" />
+    <Compile Include="Creational\PrototypeTests.cs" />
+    <Compile Include="Creational\SingletonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structural\Adapter\AdapterTests.cs" />
+    <Compile Include="Structural\AdapterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
