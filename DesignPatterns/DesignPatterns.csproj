@@ -59,6 +59,9 @@
     <Compile Include="Structural\Adapter\Adapter.cs" />
     <Compile Include="Structural\Adapter\Client.cs" />
     <Compile Include="Structural\Adapter\CompatibleObject.cs" />
+    <Compile Include="Structural\Bridge\Bridge.cs" />
+    <Compile Include="Structural\Bridge\Client.cs" />
+    <Compile Include="Structural\Bridge\Implementation.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
