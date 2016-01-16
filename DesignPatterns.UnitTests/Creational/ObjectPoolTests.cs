@@ -1,7 +1,7 @@
 ﻿using DesignPatterns.Creational.ObjectPool;
 using NUnit.Framework;
 
-namespace DesignPatterns.UnitTests.Creational.ObjectPool
+namespace DesignPatterns.UnitTests.Creational
 {
     [TestFixture]
     public class ObjectPoolTests

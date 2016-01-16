@@ -1,7 +1,7 @@
 ﻿using DesignPatterns.Creational.AbstractFactory;
 using NUnit.Framework;
 
-namespace DesignPatterns.UnitTests.Creational.AbstractFactory
+namespace DesignPatterns.UnitTests.Creational
 {
     [TestFixture]
     public class AbstractFactoryTests
@@ -9,12 +9,13 @@ namespace DesignPatterns.UnitTests.Creational.AbstractFactory
         [Test]
         public void FactoryTest()
         {
-            DesignPatterns.Creational.AbstractFactory.AbstractFactory abstractFactory = new PcFactory();
+            AbstractFactory abstractFactory = new PcFactory();
 
             Assert.That(abstractFactory.MakePhrase().ToString(), Is.EqualTo("\"vertically challenged\""));
             Assert.That(abstractFactory.MakePhrase().ToString(), Is.EqualTo("\"factually inaccurate\""));
             Assert.That(abstractFactory.MakePhrase().ToString(), Is.EqualTo("\"chronologically gifted\""));
-            Assert.That(abstractFactory.MakeCompromise().ToString(), Is.EqualTo("\"do it your way, any way, or no way\""));
+            Assert.That(abstractFactory.MakeCompromise().ToString(),
+                Is.EqualTo("\"do it your way, any way, or no way\""));
             Assert.That(abstractFactory.MakeGrade().ToString(), Is.EqualTo("\"you pass, self-esteem intact\""));
 
             abstractFactory = new NotPcFactory();

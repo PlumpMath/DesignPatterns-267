@@ -1,7 +1,7 @@
 ﻿using DesignPatterns.Creational.FactoryMethod;
 using NUnit.Framework;
 
-namespace DesignPatterns.UnitTests.Creational.FactoryMethod
+namespace DesignPatterns.UnitTests.Creational
 {
     [TestFixture]
     public class FactoryMethodTests
@@ -9,7 +9,7 @@ namespace DesignPatterns.UnitTests.Creational.FactoryMethod
         [Test]
         public void FactoryMethodTest()
         {
-            DesignPatterns.Creational.FactoryMethod.FactoryMethod factoryMethod = new OReillyFactoryMethod();
+            FactoryMethod factoryMethod = new OReillyFactoryMethod();
 
             var book = factoryMethod.MakeBook("us");
 

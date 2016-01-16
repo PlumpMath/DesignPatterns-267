@@ -1,7 +1,7 @@
 ﻿using DesignPatterns.Creational.Builder;
 using NUnit.Framework;
 
-namespace DesignPatterns.UnitTests.Creational.Builder
+namespace DesignPatterns.UnitTests.Creational
 {
     [TestFixture]
     public class BuilderTests

@@ -2,7 +2,7 @@
 using DesignPatterns.Structural.Adapter;
 using NUnit.Framework;
 
-namespace DesignPatterns.UnitTests.Structural.Adapter
+namespace DesignPatterns.UnitTests.Structural
 {
     [TestFixture]
     public class AdapterTests
