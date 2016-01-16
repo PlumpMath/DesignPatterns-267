@@ -2,6 +2,11 @@
 
 namespace DesignPatterns.Creational.Prototype
 {
+    public interface IPrototype<out T>
+    {
+        T Clone();
+    }
+
     public class PrototypeRegistry<T> where T : IPrototype<T>
     {
         private readonly Dictionary<string, T> _registry;
