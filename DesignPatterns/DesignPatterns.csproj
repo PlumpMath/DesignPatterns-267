@@ -63,6 +63,7 @@
     <Compile Include="Structural\Bridge\Implementation.cs" />
     <Compile Include="Structural\Composite\Composite.cs" />
     <Compile Include="Structural\Composite\Containee.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
