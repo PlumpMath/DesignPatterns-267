@@ -58,6 +58,7 @@
     <Compile Include="Structural\FacadeTests.cs" />
     <Compile Include="Structural\FlyweightTests.cs" />
     <Compile Include="Structural\PrivateClassData.cs" />
+    <Compile Include="Structural\ProxyTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

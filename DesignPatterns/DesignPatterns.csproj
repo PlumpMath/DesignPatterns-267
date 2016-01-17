@@ -69,6 +69,9 @@
     <Compile Include="Structural\Facade\Facade.cs" />
     <Compile Include="Structural\Flyweight\Flyweight.cs" />
     <Compile Include="Structural\PrivateClassData\PrivateClassData.cs" />
+    <Compile Include="Structural\Proxy\Class.cs" />
+    <Compile Include="Structural\Proxy\Events.cs" />
+    <Compile Include="Structural\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
