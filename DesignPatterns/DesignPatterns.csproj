@@ -65,6 +65,8 @@
     <Compile Include="Structural\Composite\Containee.cs" />
     <Compile Include="Structural\Decorator\LowestCommonDenominatorImplementation.cs" />
     <Compile Include="Structural\Decorator\Decorator.cs" />
+    <Compile Include="Structural\Facade\ArrayCaseReverse.cs" />
+    <Compile Include="Structural\Facade\Facade.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
