@@ -56,6 +56,7 @@
     <Compile Include="Structural\CompositeTests.cs" />
     <Compile Include="Structural\DecoratorTests.cs" />
     <Compile Include="Structural\FacadeTests.cs" />
+    <Compile Include="Structural\FlyweightTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
