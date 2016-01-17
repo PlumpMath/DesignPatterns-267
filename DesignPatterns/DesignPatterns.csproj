@@ -68,6 +68,7 @@
     <Compile Include="Structural\Facade\ArrayCaseReverse.cs" />
     <Compile Include="Structural\Facade\Facade.cs" />
     <Compile Include="Structural\Flyweight\Flyweight.cs" />
+    <Compile Include="Structural\PrivateClassData\PrivateClassData.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
