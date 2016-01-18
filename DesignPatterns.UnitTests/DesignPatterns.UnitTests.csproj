@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibilityTests.cs" />
     <Compile Include="Creational\AbstractFactoryTests.cs" />
     <Compile Include="Creational\BuilderTests.cs" />
     <Compile Include="Creational\FactoryMethodTests.cs" />

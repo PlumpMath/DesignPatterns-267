@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainLink.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility.cs" />
     <Compile Include="Creational\AbstractFactory\Expression.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Pizza.cs" />
