@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Behavioral
+namespace DesignPatterns.Behavioral.ChainOfResponsibility
 {
     public abstract class ChainOfResponsibility
     {

@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.Behavioral;
+using DesignPatterns.Behavioral.ChainOfResponsibility;
 using NUnit.Framework;
 
 namespace DesignPatterns.UnitTests.Behavioral
