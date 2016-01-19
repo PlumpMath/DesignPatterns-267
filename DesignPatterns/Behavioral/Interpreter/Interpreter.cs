@@ -24,40 +24,31 @@ namespace DesignPatterns.Behavioral.Interpreter
         {
             Expression e = null;
 
-            if (e != null)
-            {
-                return e;
-            }
-
             e = Multiplication(expression);
-
             if (e != null)
             {
                 return e;
             }
 
             e = Division(expression);
-
             if (e != null)
             {
                 return e;
             }
 
             e = Addition(expression);
-
             if (e != null)
             {
                 return e;
             }
 
             e = Subtraction(expression);
-
             if (e != null)
             {
                 return e;
             }
 
-            return null;
+            return e;
         }
 
         private static Expression Addition(IReadOnlyList<string> expression)
