@@ -1,4 +1,5 @@
-﻿using DesignPatterns.Creational.Builder;
+﻿using System;
+using DesignPatterns.Creational.Builder;
 using NUnit.Framework;
 
 namespace DesignPatterns.UnitTests.Creational
@@ -7,25 +8,32 @@ namespace DesignPatterns.UnitTests.Creational
     public class BuilderTests
     {
         [Test]
-        public void BuilderTest()
+        public void Test()
         {
-            var waiter = new Waiter();
+            var builder = new Builder()
+                .WithProperty1(1)
+                .WithProperty2("2")
+                .WithProperty3(new DateTime(3, 3, 3, 3, 3, 3))
+                .WithSubProperty1("1")
+                .WithSubProperty2(2);
 
-            waiter.SetPizzaBuilder(new HawaiianPizzaBuilder());
-            waiter.ConstructPizza();
-            var pizza = waiter.GetPizza();
+            var representation1 = builder.Construct();
 
-            Assert.That(pizza.Dough, Is.EqualTo("cross"));
-            Assert.That(pizza.Sauce, Is.EqualTo("mild"));
-            Assert.That(pizza.Topping, Is.EqualTo("ham+pineapple"));
+            Assert.That(representation1.Property1, Is.EqualTo(1));
+            Assert.That(representation1.Property2, Is.EqualTo("2"));
+            Assert.That(representation1.Property3, Is.EqualTo(new DateTime(3, 3, 3, 3, 3, 3)));
+            Assert.That(representation1.Sub.Property1, Is.EqualTo("1"));
+            Assert.That(representation1.Sub.Property2, Is.EqualTo(2));
 
-            waiter.SetPizzaBuilder(new SpicyPizzaBuilder());
-            waiter.ConstructPizza();
-            pizza = waiter.GetPizza();
+            var representation2 = builder.Construct();
 
-            Assert.That(pizza.Dough, Is.EqualTo("pan baked"));
-            Assert.That(pizza.Sauce, Is.EqualTo("hot"));
-            Assert.That(pizza.Topping, Is.EqualTo("pepperoni+salami"));
+            Assert.That(representation2.Property1, Is.EqualTo(1));
+            Assert.That(representation2.Property2, Is.EqualTo("2"));
+            Assert.That(representation2.Property3, Is.EqualTo(new DateTime(3, 3, 3, 3, 3, 3)));
+            Assert.That(representation2.Sub.Property1, Is.EqualTo("1"));
+            Assert.That(representation2.Sub.Property2, Is.EqualTo(2));
+
+            Assert.That(representation1, Is.Not.SameAs(representation2));
         }
     }
 }
