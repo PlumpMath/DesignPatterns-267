@@ -47,6 +47,7 @@
     <Compile Include="Behavioral\ChainOfResponsibilityTests.cs" />
     <Compile Include="Behavioral\CommandTests.cs" />
     <Compile Include="Behavioral\InterpreterTests.cs" />
+    <Compile Include="Behavioral\IteratorTests.cs" />
     <Compile Include="Creational\AbstractFactoryTests.cs" />
     <Compile Include="Creational\BuilderTests.cs" />
     <Compile Include="Creational\FactoryMethodTests.cs" />

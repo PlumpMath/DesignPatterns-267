@@ -47,6 +47,7 @@
     <Compile Include="Behavioral\Command\Receiver.cs" />
     <Compile Include="Behavioral\Interpreter\Expression.cs" />
     <Compile Include="Behavioral\Interpreter\Interpreter.cs" />
+    <Compile Include="Behavioral\Iterator\Iterator.cs" />
     <Compile Include="Creational\AbstractFactory\Expression.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
