@@ -50,6 +50,7 @@
     <Compile Include="Behavioral\IteratorTests.cs" />
     <Compile Include="Behavioral\MediatorTests.cs" />
     <Compile Include="Behavioral\MementoTests.cs" />
+    <Compile Include="Behavioral\NullObjectTests.cs" />
     <Compile Include="Creational\AbstractFactoryTests.cs" />
     <Compile Include="Creational\BuilderTests.cs" />
     <Compile Include="Creational\FactoryMethodTests.cs" />
