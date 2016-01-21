@@ -10,7 +10,7 @@ namespace DesignPatterns.Behavioral.Memento
 
         public Memento(T @object)
         {
-            _state = typeof(T)
+            _state = typeof (T)
                 .GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
                 .ToDictionary(key => key, value => value.GetValue(@object));
         }
