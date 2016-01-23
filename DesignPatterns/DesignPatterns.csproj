@@ -60,6 +60,7 @@
     <Compile Include="Behavioral\State\State.cs" />
     <Compile Include="Behavioral\State\Wrapper.cs" />
     <Compile Include="Behavioral\Strategy\Strategy.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TemplateMethod.cs" />
     <Compile Include="Creational\AbstractFactory\Expression.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
