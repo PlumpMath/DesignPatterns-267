@@ -2,51 +2,34 @@
 {
     public abstract class FactoryMethod
     {
-        public abstract Book MakeBook(string param);
+        public abstract Class Create(string param);
     }
 
-    public class OReillyFactoryMethod : FactoryMethod
+    public class LetterClassFactoryMethod : FactoryMethod
     {
-        public override Book MakeBook(string param)
+        public override Class Create(string param)
         {
-            Book book;
             switch (param)
             {
-                case "us":
-                    book = new OReillyPhpBook();
-                    break;
-                case "other":
-                    book = new SamsPhpBook();
-                    break;
+                case "first":
+                    return new ClassA();
                 default:
-                    book = new OReillyPhpBook();
-                    break;
+                    return new ClassB();
             }
-            return book;
         }
     }
 
-    public class SamsFactoryMethod : FactoryMethod
+    public class NumberClassFactoryMethod : FactoryMethod
     {
-        public override Book MakeBook(string param)
+        public override Class Create(string param)
         {
-            Book book;
             switch (param)
             {
-                case "us":
-                    book = new SamsPhpBook();
-                    break;
-                case "other":
-                    book = new OReillyPhpBook();
-                    break;
-                case "otherother":
-                    book = new VisualQuickstartPhpBook();
-                    break;
+                case "first":
+                    return new Class1();
                 default:
-                    book = new SamsPhpBook();
-                    break;
+                    return new Class2();
             }
-            return book;
         }
     }
 }
