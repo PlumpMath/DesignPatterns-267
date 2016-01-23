@@ -2,51 +2,33 @@
 {
     public abstract class AbstractFactory
     {
-        protected Expression Prototype;
-
-        public Expression MakePhrase()
-        {
-            return Prototype.Clone();
-        }
-
-        public abstract Expression MakeCompromise();
-
-        public abstract Expression MakeGrade();
+        public abstract ClassA CreateA();
+        public abstract ClassB CreateB();
     }
 
-    public class PcFactory : AbstractFactory
+    public class Class1AbstractFactory : AbstractFactory
     {
-        public PcFactory()
+        public override ClassA CreateA()
         {
-            Prototype = new PcPhrase();
+            return new ClassA1();
         }
 
-        public override Expression MakeCompromise()
+        public override ClassB CreateB()
         {
-            return new Expression("\"do it your way, any way, or no way\"");
-        }
-
-        public override Expression MakeGrade()
-        {
-            return new Expression("\"you pass, self-esteem intact\"");
+            return new ClassB1();
         }
     }
 
-    public class NotPcFactory : AbstractFactory
+    public class Class2AbstractFactory : AbstractFactory
     {
-        public NotPcFactory()
+        public override ClassA CreateA()
         {
-            Prototype = new NotPcPhrase();
+            return new ClassA2();
         }
 
-        public override Expression MakeCompromise()
+        public override ClassB CreateB()
         {
-            return new Expression("\"my way, or the highway\"");
-        }
-
-        public override Expression MakeGrade()
-        {
-            return new Expression("\"take test, deal with the results\"");
+            return new ClassB2();
         }
     }
 }

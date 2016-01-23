@@ -63,8 +63,9 @@
     <Compile Include="Behavioral\TemplateMethod\TemplateMethod.cs" />
     <Compile Include="Behavioral\Visitor\Element.cs" />
     <Compile Include="Behavioral\Visitor\Visitor.cs" />
-    <Compile Include="Creational\AbstractFactory\Expression.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\ClassA.cs" />
+    <Compile Include="Creational\AbstractFactory\ClassB.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Creational\Builder\Representation.cs" />
     <Compile Include="Creational\FactoryMethod\FactoryMethod.cs" />
