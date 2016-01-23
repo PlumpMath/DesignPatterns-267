@@ -53,6 +53,7 @@
     <Compile Include="Behavioral\NullObjectTests.cs" />
     <Compile Include="Behavioral\ObserverTests.cs" />
     <Compile Include="Behavioral\StateTests.cs" />
+    <Compile Include="Behavioral\StrategyTests.cs" />
     <Compile Include="Creational\AbstractFactoryTests.cs" />
     <Compile Include="Creational\BuilderTests.cs" />
     <Compile Include="Creational\FactoryMethodTests.cs" />
